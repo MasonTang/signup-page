@@ -66,6 +66,10 @@ main {
     margin-bottom: 1rem;
 }
 
+.signup input:focus {
+    border: 2px solid rgb(0, 162, 255)
+}
+
 button {
     background-color: #0CB863;
     color: white;
@@ -77,6 +81,14 @@ button {
     height: 55px;
     border:2px solid #0CB863;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(8, 155, 64);
+}
+
+button:focus {
+     border: 2px solid rgb(27, 141, 207) 
 }
 
 .login {
