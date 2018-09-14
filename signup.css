@@ -1,0 +1,95 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+body {
+    font-weight:400;
+    line-height: 1.7;
+    color: black;
+    box-sizing:border-box;
+    background-color: #3F94E7;
+    font-family: "Roboto", helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.logo {
+    display:flex;
+    justify-content:center;
+    margin: 6rem auto 3rem auto;  
+}
+
+.logo-image {
+    height: 3.5rem;
+}
+
+.signup {
+    background-color: white;
+    width: 40rem;
+    padding: 4rem 4rem;
+    display: block;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+}
+
+.signup fieldset{
+    border:none;
+    font-size: 1.8rem;
+}
+
+.signup h1 {
+    font-size: 3.5rem;
+    display:flex;
+    justify-content: center;
+    color: #56565A;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+}
+
+.signup label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.signup input {
+    font-size: 2rem;
+    width: 320px;
+    border: 2px solid #E7E7E7;
+    padding: 15px;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #0CB863;
+    color: white;
+    padding: 15px;
+    border-radius: 2%;
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 320px;
+    height: 55px;
+    border:2px solid #0CB863;
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.login a{
+    color: white;
+}
+
+
